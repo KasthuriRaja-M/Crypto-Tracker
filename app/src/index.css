@@ -6,7 +6,7 @@ a { color: var(--text); text-decoration: none; }
 
 .header { position: sticky; top:0; z-index:10; background: rgba(15,22,48,0.8); backdrop-filter: blur(6px); border-bottom:1px solid rgba(255,255,255,0.06); }
 .header .container { display:flex; align-items:center; justify-content:space-between; padding: 14px 20px; max-width:1200px; margin:0 auto; }
-.brand { font-weight: 700; letter-spacing: 0.3px; background: linear-gradient(135deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.brand { font-weight: 700; letter-spacing: 0.3px; background: linear-gradient(135deg, #06b6d4, #10b981); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .nav a { margin-left: 16px; color: var(--muted); }
 .nav a.active { color: white; border-bottom: 2px solid var(--accent); padding-bottom: 4px; }
 
